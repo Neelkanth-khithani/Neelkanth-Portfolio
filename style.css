@@ -1,0 +1,152 @@
+html {
+    height: 100%;
+}
+#heading{
+    font-size: 30px;
+}
+body {
+    display: grid;
+    height: 100vh;
+    margin: 0;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+}
+
+.heading {
+    grid-row: 1;
+    justify-self: center;
+}
+
+.blue {
+    color: #4285f4;
+}
+
+.green {
+    color: #34a853;
+}
+
+.yellow {
+    color: #f9ab00;
+}
+.red{
+    color: #ea4335;
+}
+.tagline {
+    grid-row: 2;
+    margin-top: 36px;
+    margin-bottom: 20px; 
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    letter-spacing: normal;
+    line-height: 28px;
+}
+.profile-img {
+    border-radius: 50%;
+    height: 250px;
+}
+.pro{
+    text-decoration: underline;
+    color: #ea4335;
+}
+.skill-carousel {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.skill-item {
+    font-family: "Google Sans", Roboto, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 28px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.skill-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+.skill-item p {
+    margin-top: 10px;
+}
+.H{
+    text-decoration: none;
+    color: black;
+}
+/* Add styles for the Educational Background section */
+.education-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.education-image {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.education-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.education-text {
+    flex: 1;
+    padding: 20px;
+}
+
+.education-text p {
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+}
+.email{
+    font-size: 20px;
+}
+.mobile-no{
+    font-size: 20px;
+}
+.contact-section {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.contact-item {
+    flex: 1;
+    max-width: calc(33.33% - 10px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contact-item a {
+    text-decoration: none;
+    color: #007bff;
+}
+
